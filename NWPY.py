@@ -1,4 +1,5 @@
 import sys
-print(10)
-print(2)
-print("Hell world")
+print(sys.argv[1]+sys.argv[2])
+print(sys.argv[1]*sys.argv[2])
+print(sys.argv[1]/sys.argv[2])
+
